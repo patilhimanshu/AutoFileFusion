@@ -1,4 +1,4 @@
-Project_Name = "Compiling Text Files 2.0"
+Project_Name = ""
 from watchdog.observers import Observer  # imports the file-watching engine
 from watchdog.events import FileSystemEventHandler  # imports event handler class
 import time  # used to keep program running
