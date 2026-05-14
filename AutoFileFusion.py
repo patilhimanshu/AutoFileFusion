@@ -22,14 +22,6 @@ def addfile():
         f.write(CombinedContent)
 
 
-class FilterFile:
-    def __init__(self, file):
-        self.file = file
-    def filter(self):
-        unfiltered = self.file.splitlines()
-        for line in unfiltered:
-            if line.strip() == "":
-                continue
 
 class ChangeHandler(FileSystemEventHandler):
     # this function runs whenever any file event occurs
