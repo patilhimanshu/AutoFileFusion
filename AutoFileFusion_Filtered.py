@@ -5,13 +5,6 @@ import time  # used to keep program running
 import os
 
 # custom handler to define what happens when a file changes
-
-
-
-
-
-
-
 class ChangeHandler(FileSystemEventHandler):
     # this function runs whenever any file event occurs
     def on_modified(self, event):
